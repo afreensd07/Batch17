@@ -1,6 +1,6 @@
-# __Major_Project -17__
+# Major_Project -17
 
-## __KAFKA-ENABLED REAL-TIME ANOMALY BASED INTRUSION DETECTION SYSTEM__
+## KAFKA-ENABLED REAL-TIME ANOMALY BASED INTRUSION DETECTION SYSTEM
 The system design integrates Kafka as an anomaly-based intrusion detection real-time solution by using Apache Kafka data streaming and performing unsupervised anomaly detection during autoencoder warmup stage analysis with Kibana visualization functionalities. With Scapy the system can obtain real-time network traffic that Kafka producers convert into feature vectors. An autoencoder network learns traffic patterns through its encoder and decoder sections which use dropout regularization to create alerts when reconstruction errors exceed a set limit. The Kibana dashboards display anomaly detections using streaming operations which enables fast threat monitoring together with alert features for preventing damaging incidents.  
 
 ## 📌Objectives of the Project
@@ -8,7 +8,7 @@ The system design integrates Kafka as an anomaly-based intrusion detection real-
 2. Ensure scalability and high-speed processing to handle large volumes of network traffic data.  
 3. Provide anomaly detection and visualization of network anomalies for proactive threat mitigation.
    
-## 🖇️__Technology Stack__
+## 🖇️Technology Stack
 ->Scapy
 
 ->TensorFlow
@@ -17,14 +17,14 @@ The system design integrates Kafka as an anomaly-based intrusion detection real-
 
 ->Kibana with Elasticsearch 
 
-## 🗂️__Dataset Used__
+## 🗂️Dataset Used
 
 ~Scapy is a Python library for network packet manipulation, allowing users to sniff, craft, send, and analyze packets. 
 ~It supports various protocols (TCP, UDP, ICMP, ARP) and is widely used in cybersecurity for penetration testing, intrusion detection, and network traffic analysis. 
 
 
 
-## ⛓️__How it works__
+## ⛓️How it works
 **Data Ingestion & Preprocessing:**
 
    Captures live network traffic using Scapy and streams features to Kafka.
@@ -45,7 +45,7 @@ __Alerting & Response Mechanism__
 
    Triggers alerts through Kibana based on detected anomaly scores.
 
-## 📊__Results__
+## 📊Results
 
 Kibana dashboard visualizing network traffic anomalies. It includes a time-series line graph, a heatmap, and a pie chart to differentiate between normal and anomalous network flows. A notable spike in anomalies is observed at 00:18:30, indicating a potential network security event.
 
