@@ -19,7 +19,8 @@ The system design integrates Kafka as an anomaly-based intrusion detection real-
 
 ## 🗂️Dataset Used
 
-~Scapy is a Python library for network packet manipulation, allowing users to sniff, craft, send, and analyze packets. 
+~Scapy is a Python library for network packet manipulation, allowing users to sniff, craft, send, and analyze packets.
+
 ~It supports various protocols (TCP, UDP, ICMP, ARP) and is widely used in cybersecurity for penetration testing, intrusion detection, and network traffic analysis. 
 
 
