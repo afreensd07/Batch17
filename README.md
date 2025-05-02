@@ -23,6 +23,10 @@ The system design integrates Kafka as an anomaly-based intrusion detection real-
 
 ~It supports various protocols (TCP, UDP, ICMP, ARP) and is widely used in cybersecurity for penetration testing, intrusion detection, and network traffic analysis. 
 
+~Uses Scapy to capture live network traffic.
+
+
+
 
 
 ## ⛓️How it works
