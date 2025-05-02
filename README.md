@@ -1,1 +1,3 @@
-
+# Major Project-17
+## KAFKA ENABLED REAL-TIME ANOMALY BASED INTRUSION DETECTION SYSTEM
+### The system design integrates Kafka as an anomaly-based intrusion detection real-time solution by using Apache Kafka data streaming and performing unsupervised anomaly detection during autoencoder warmup stage analysis with Kibana visualization functionalities. With Scapy the system can obtain real-time network traffic that Kafka producers convert into feature vectors. An autoencoder network learns traffic patterns through its encoder and decoder sections which use dropout regularization to create alerts when reconstruction errors exceed a set limit. The Kibana dashboards display anomaly detections using streaming operations which enables fast threat monitoring together with alert features for preventing damaging incidents.  
